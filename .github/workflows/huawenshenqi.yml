@@ -3,22 +3,30 @@ name: huawenshenqi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
+    - cron: '2 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huawenshenqi
         env:
-          bunxk9423: ${{ secrets.bunxk9423 }}
+          ajqbk82843: ${{ secrets.ajqbk82843 }}
         run: |
-          echo $bunxk9423 | jq -r .ruvve958 | /bin/bash
-          echo $y27728 | jq -r .qtd31164 | /bin/bash
-          echo $n0799 | jq -r .puu8 | /bin/bash
-          echo $a6935 | jq -r .fvaym60 | /bin/bash
-          echo $k19442 | jq -r .ctp8355 | /bin/bash
-          echo $tthv35167 | jq -r .nfint227 | /bin/bash
-          echo $rgtjr58129 | jq -r .bd451 | /bin/bash
+          echo $ajqbk82843 | jq -r .yynm80423 | /bin/bash
+          echo $kult37844 | jq -r .hct317 | /bin/bash
+          echo $vi3 | jq -r .tuz35894 | /bin/bash
+          echo $hdhxo1402 | jq -r .mx8748 | /bin/bash
+          echo $t45 | jq -r .y980 | /bin/bash
+          echo $rdu47267 | jq -r .owgs2 | /bin/bash
+          echo $ohgvp923 | jq -r .ak938 | /bin/bash
+          echo $f45 | jq -r .tb36 | /bin/bash
+          echo $llls41537 | jq -r .n95762 | /bin/bash
+          echo $uza76 | jq -r .bwar97088 | /bin/bash
+          echo $mwp3 | jq -r .vo1 | /bin/bash
+          echo $l39213 | jq -r .lx66 | /bin/bash
+          echo $hbtm4115 | jq -r .xz1417 | /bin/bash
+          echo $ns5 | jq -r .brs6882 | /bin/bash
 
