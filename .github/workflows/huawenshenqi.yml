@@ -1,32 +1,28 @@
 name: huawenshenqi
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 5/6 * * *'
-
-jobs:  # 29792
+    - cron: '42 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huawenshenqi
         env:
-          ajqbk82843: ${{ secrets.ajqbk82843 }}
+          wwze010: ${{ secrets.wwze010 }}
         run: |
-          echo $ajqbk82843 | jq -r .yynm80423 | /bin/bash
-          echo $kult37844 | jq -r .hct317 | /bin/bash
-          echo $vi3 | jq -r .tuz35894 | /bin/bash
-          echo $hdhxo1402 | jq -r .mx8748 | /bin/bash
-          echo $t45 | jq -r .y980 | /bin/bash
-          echo $rdu47267 | jq -r .owgs2 | /bin/bash
-          echo $ohgvp923 | jq -r .ak938 | /bin/bash
-          echo $f45 | jq -r .tb36 | /bin/bash
-          echo $llls41537 | jq -r .n95762 | /bin/bash
-          echo $uza76 | jq -r .bwar97088 | /bin/bash
-          echo $mwp3 | jq -r .vo1 | /bin/bash
-          echo $l39213 | jq -r .lx66 | /bin/bash
-          echo $hbtm4115 | jq -r .xz1417 | /bin/bash
-          echo $ns5 | jq -r .brs6882 | /bin/bash
+          echo $wwze010 | jq -r .lkic87 | /bin/bash
+          echo $oa0888 | jq -r .ajq6 | /bin/bash
+          echo $ps04597 | jq -r .mqain4 | /bin/bash
+          echo $ai2785 | jq -r .yokv32 | /bin/bash
+          echo $iltut1100 | jq -r .ru6056 | /bin/bash
+          echo $mvqgw01 | jq -r .pr24154 | /bin/bash
+          echo $p45267 | jq -r .b35 | /bin/bash
+          echo $ecuf69 | jq -r .js1762 | /bin/bash
+          echo $jqnph7347 | jq -r .qbdfw36463 | /bin/bash
+          echo $q92 | jq -r .xf7052 | /bin/bash
+          echo $xhn765 | jq -r .gbf77806 | /bin/bash
+          echo $qqved11 | jq -r .k748 | /bin/bash
+          echo $ohey4 | jq -r .ina6016 | /bin/bash
 
