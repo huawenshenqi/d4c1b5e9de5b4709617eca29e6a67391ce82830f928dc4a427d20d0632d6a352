@@ -1,8 +1,9 @@
 name: huawenshenqi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '11 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: huawenshenqi
         env:
-          wwze010: ${{ secrets.wwze010 }}
+          u3107: ${{ secrets.u3107 }}
         run: |
-          echo $wwze010 | jq -r .lkic87 | /bin/bash
-          echo $oa0888 | jq -r .ajq6 | /bin/bash
-          echo $ps04597 | jq -r .mqain4 | /bin/bash
-          echo $ai2785 | jq -r .yokv32 | /bin/bash
-          echo $iltut1100 | jq -r .ru6056 | /bin/bash
-          echo $mvqgw01 | jq -r .pr24154 | /bin/bash
-          echo $p45267 | jq -r .b35 | /bin/bash
-          echo $ecuf69 | jq -r .js1762 | /bin/bash
-          echo $jqnph7347 | jq -r .qbdfw36463 | /bin/bash
-          echo $q92 | jq -r .xf7052 | /bin/bash
-          echo $xhn765 | jq -r .gbf77806 | /bin/bash
-          echo $qqved11 | jq -r .k748 | /bin/bash
-          echo $ohey4 | jq -r .ina6016 | /bin/bash
+          echo $u3107 | jq -r .epd42 | /bin/bash
+          echo $a570 | jq -r .m451 | /bin/bash
+          echo $ke47 | jq -r .kgmwa355 | /bin/bash
+          echo $tl976 | jq -r .uqpd3925 | /bin/bash
+          echo $xux07 | jq -r .plzz5068 | /bin/bash
+          echo $ptmzl99 | jq -r .mt475 | /bin/bash
 
